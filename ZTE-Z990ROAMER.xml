@@ -8,22 +8,20 @@
       <project name="cmotc/android_vendor_zte_z990" path="vendor/zte/z990" remote="github" revision="master" />
 
 <!-- Cyanogenmod Backports from LegaCyMod to be re-expressed as patched to CyanogenMod core and placed in device/zte/z990/patches/apply/common -->
-<!--
 	<remove-project name="CyanogenMod/android_frameworks_native" />
 	<remove-project name="CyanogenMod/android_frameworks_av"/>
 	<project name="cmotc/android_framework_native" path="frameworks/native" remote="github" revision="cm-11.0" />
 	<project name="cmotc/android_framworks_av" path="frameworks/av" remote="github" revision="cm-11.0" />
--->
 <!-- Cyanogenmod Backports from LegaCyMod -->
 <!--
       <project name="cmotc/android_hardware_atheros_ath6kl" path="hardware/atheros/wlan" remote="github" revision="master" />
       <project name="cmotc/android_hardware_atheros_ath6kl-compat" path="hardware/atheros/ath6kl-compat" remote="github" revision="master" />
-
+-->
       <project name="cmotc/android_hardware_qcom_display-legacy-1" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
-      <project name="cmotc/android_hardware_qcom_fm" path="hardware/com/fm-mr1" remote="github" revision="cm-11.0" />
+<!--  <project name="cmotc/android_hardware_qcom_fm" path="hardware/com/fm-mr1" remote="github" revision="cm-11.0" />
       <project name="cmotc/android_packages_apps_FM2" path="packages/apps/FM2" remote="github" revision="cm-11.0" />
+-->
 
       <project name="cmotc/android_external_webkit" path="external/webkit" remote="github" revision="cm-11.0" />
--->
     </manifest>
 
